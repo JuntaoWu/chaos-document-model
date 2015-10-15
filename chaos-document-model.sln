@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chaos.Document", "Chaos.Doc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chaos.Document.Test", "Chaos.Document.Test\Chaos.Document.Test.csproj", "{CF9EE41B-8207-483A-AEFC-D3B47DE37A20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chaos.Net.Infrastructure", "Chaos.Net.Infrastructure\Chaos.Net.Infrastructure.csproj", "{7FCF6A53-2A53-443D-B361-3BB0FA2E42E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CF9EE41B-8207-483A-AEFC-D3B47DE37A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF9EE41B-8207-483A-AEFC-D3B47DE37A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF9EE41B-8207-483A-AEFC-D3B47DE37A20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FCF6A53-2A53-443D-B361-3BB0FA2E42E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FCF6A53-2A53-443D-B361-3BB0FA2E42E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FCF6A53-2A53-443D-B361-3BB0FA2E42E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FCF6A53-2A53-443D-B361-3BB0FA2E42E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

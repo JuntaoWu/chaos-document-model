@@ -34,6 +34,10 @@ namespace Chaos.Document
 
         private void EnsureRequestWithIdentity(HttpRequestMessage request)
         {
+            if(Identity == null)
+            {
+                return;
+            }
             Identity.Headers.OfType<string>().ToList().ForEach(name =>
             {
                 request.Headers.Add(name, Identity.Headers[name]);

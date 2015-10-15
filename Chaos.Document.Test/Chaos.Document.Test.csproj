@@ -210,6 +210,7 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\DownloadWordDocumentController.cs" />
+    <Compile Include="Controllers\GetProjectController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -277,6 +278,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\GetProject\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -293,6 +295,10 @@
     <ProjectReference Include="..\Chaos.Document\Chaos.Document.csproj">
       <Project>{a40af99c-e799-400c-a21b-8fc7298d1627}</Project>
       <Name>Chaos.Document</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Chaos.Net.Infrastructure\Chaos.Net.Infrastructure.csproj">
+      <Project>{7fcf6a53-2a53-443d-b361-3bb0fa2e42e9}</Project>
+      <Name>Chaos.Net.Infrastructure</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
